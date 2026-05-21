@@ -1,0 +1,9 @@
+# Global owner as fallback
+*       @Torkovwryy
+
+# CI/CD and GitHub Infrastructure
+/.github/     @Torkovwryy
+
+# Security and Governance
+/SECURITY.md  @Torkovwryy
+/LICENSE      @Torkovwryy
