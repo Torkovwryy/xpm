@@ -1,0 +1,21 @@
+{
+  "name": "xpm-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "eXtensible Package Manager - The scalable, deterministic, and secure package manager.",
+  "author": "XPM Core Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.12.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "test": "echo 'Testing environment not yet initialized.'",
+    "format": "prettier --write \"**/*.{ts,js,json,md,yaml}\"",
+    "format:check": "prettier --check \"**/*.{ts,js,json,md,yaml}\""
+  },
+  "devDependencies": {
+    "prettier": "3.8.3",
+    "typescript": "6.0.3"
+  }
+}
