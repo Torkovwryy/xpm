@@ -21,7 +21,7 @@ To provide the most secure, fast, and extensible foundation for dependency manag
 
 ## 🚀 Getting Started
 
-*(Documentation under construction. We are currently laying the foundations in the `v0.x.x` phase.)*
+_(Documentation under construction. We are currently laying the foundations in the `v0.x.x` phase.)_
 
 ## 🤝 Contributing
 
