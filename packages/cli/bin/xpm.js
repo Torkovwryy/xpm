@@ -7,4 +7,4 @@ process.removeAllListeners('warning');
 import('../dist/index.js').catch((err) => {
   console.error('Failed to start XPM CLI:', err);
   process.exit(1);
-})
+});
