@@ -1,0 +1,19 @@
+{
+  "name": "@xpm/cli",
+  "version": "0.0.0",
+  "description": "Command Line Interface for XPM",
+  "main": "./dist/index.js",
+  "type": "module",
+  "bin": {
+    "xpm": "./bin/xpm.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@xpm/cli": "link:",
+    "@xpm/utils": "workspace:*",
+    "clipanion": "4.0.0-rc.4",
+    "typanion": "3.14.0"
+  }
+}

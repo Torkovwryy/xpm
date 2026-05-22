@@ -1,3 +1,5 @@
 packages:
   - 'packages/*'
   - 'tools/*'
+overrides:
+  '@xpm/cli': link:packages/cli
