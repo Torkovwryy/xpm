@@ -1,5 +1,5 @@
-import { Command, Option } from "clipanion";
-import { logger, LogLevel } from "@xpm/utils";
+import { Command, Option } from 'clipanion';
+import { logger, LogLevel } from '@xpm/utils';
 
 /**
  * Abstract Base Command that provides shared flags and utilities

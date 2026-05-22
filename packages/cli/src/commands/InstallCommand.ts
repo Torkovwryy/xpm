@@ -17,9 +17,7 @@ export class InstallCommand extends BaseCommand {
       This command reads the package.json and the xpm-lock.yaml to resolve,
       fetch, and link dependencies into the local virtual store.
     `,
-    examples: [
-      ['Install all dependencies', '$0 install'],
-    ],
+    examples: [['Install all dependencies', '$0 install']],
   });
 
   async execute(): Promise<number> {
