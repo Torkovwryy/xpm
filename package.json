@@ -10,7 +10,8 @@
     "pnpm": ">=9.0.0"
   },
   "scripts": {
-    "test": "echo 'Testing environment not yet initialized.'",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "format": "prettier --write \"**/*.{ts,js,json,md,yaml}\"",
     "format:check": "prettier --check \"**/*.{ts,js,json,md,yaml}\"",
     "prepare": "husky"
@@ -25,7 +26,8 @@
     "lint-staged": "^17.0.5",
     "prettier": "3.8.3",
     "typescript": "6.0.3",
-    "typescript-eslint": "^8.59.4"
+    "typescript-eslint": "^8.59.4",
+    "vitest": "^4.1.7"
   },
   "lint-staged": {
     "*.{ts,js}": [
@@ -35,5 +37,9 @@
     "*.{json,md,yaml}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "@xpm/cli": "link:packages/cli",
+    "xpm-monorepo": "link:"
   }
 }
